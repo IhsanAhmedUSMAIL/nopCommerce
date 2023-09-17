@@ -1,61 +1,26 @@
 package MainProject;
 
 import Utility.BaseDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-public class MainElements extends BaseDriver {
+import java.util.List;
+
+public class MainElements  {
 
     public MainElements() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
 
-    //US_01_Ihsan
-    @Test()
-    public void ihsan1() {
+    @FindBy(linkText="Wish List")
+    public WebElement wishListLink;
 
-    }
+    @FindBy(xpath="//td[@class='text-left']/a")
+    public List<WebElement> wishList;
 
-    //US_02_ Vildan / Ethem
-    @Test()
-    public void vildan1() {
 
-    }
 
-    //US_03_Faruk
-    @Test()
-    public void faruk1() {
-
-    }
-
-    //US_04_01_Faruk
-    @Test()
-    public void faruk2() {
-
-    }
-
-    //US_04_02_Ihsan/Cansu/Faruk/Vildan
-    @Test()
-    public void team10() {
-
-    }
-
-    //US_05_Cansu
-    @Test()
-    public void cansu1() {
-
-    }
-
-    //US_06_Ihsan
-    @Test()
-    public void Ihsan2() {
-
-    }
-
-    //US_07_Vildan
-    @Test()
-    public void Vildan2() {
-
-    }
 
 }

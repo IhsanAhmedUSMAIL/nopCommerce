@@ -4,8 +4,55 @@
 
     <test name="myTest1">
 
+
         <classes>
-            <class name="MainProject.MainElements"> </class>
+            <class name="MainProject.Main_POM"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest2">
+
+        <parameter name="searchText" value="Adobe Photoshop CS4"></parameter>
+
+        <classes>
+            <class name="MainProject.Main_POM"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest3">
+
+        <parameter name="searchComputer" value="Lenovo IdeaCentre"></parameter>
+
+        <classes>
+            <class name="MainProject.Main_POM"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest4">
+
+        <parameter name="searchElectronics" value="Nokia Lumia 1020"></parameter>
+
+        <classes>
+            <class name="MainProject.Main_POM"> </class>
+        </classes>
+    </test>
+
+
+    <test name="myTest5">
+
+        <parameter name="searchApparel" value="Nike Floral"></parameter>
+
+        <classes>
+            <class name="MainProject.Main_POM"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest6">
+
+        <parameter name="searchBooks" value="First Prize Pies"></parameter>
+
+        <classes>
+            <class name="MainProject.Main_POM"> </class>
         </classes>
     </test>
 
