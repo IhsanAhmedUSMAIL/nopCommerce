@@ -1,11 +1,14 @@
 package MainProject;
 
 import Utility.BaseDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 public class MainElements extends BaseDriver {
 
-    Main_POM e= new Main_POM();
+    public MainElements() {
+        PageFactory.initElements(BaseDriver.driver, this);
+    }
 
     //US_01_Ihsan
     @Test()
