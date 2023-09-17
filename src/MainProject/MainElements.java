@@ -3,9 +3,9 @@ package MainProject;
 import Utility.BaseDriver;
 import org.testng.annotations.Test;
 
-public class _10_TeamMainElements extends BaseDriver {
+public class MainElements extends BaseDriver {
 
-    _10_TeamMain_POM e= new _10_TeamMain_POM();
+    Main_POM e= new Main_POM();
 
     //US_01_Ihsan
     @Test()

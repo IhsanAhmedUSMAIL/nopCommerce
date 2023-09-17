@@ -5,7 +5,7 @@
     <test name="myTest1">
 
         <classes>
-            <class name="MainProject._10_TeamMainElements"> </class>
+            <class name="MainProject.MainElements"> </class>
         </classes>
     </test>
 
