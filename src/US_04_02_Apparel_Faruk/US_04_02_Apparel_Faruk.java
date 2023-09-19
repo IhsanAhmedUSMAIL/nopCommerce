@@ -53,7 +53,7 @@ public class US_04_02_Apparel_Faruk extends BaseDriver {
         e.searchButton.click();
         MyFunc.Wait(2);
 
-        Assert.assertTrue(e.aramaSonucu.getText().contains(aranan));
+        Assert.assertTrue(e.aramaSonucu.getText().contains(aranan),"Aranan ürün Apparel listesinde bulunamadı");
     }
 
 }
