@@ -33,12 +33,23 @@ public class Elementlerim {
     @FindBy (css = "ul[class='top-menu notmobile']>li")
     public List<WebElement> tabMenuAnaBasliklar;
 
-    @FindBy (xpath = "//ul[@class='top-menu notmobile']//a[@href]")
-    public List<WebElement> tabMenuHrefElements;
-
     @FindBy (css = "div[class='sub-category-item']")
     public List<WebElement> altMenuler;
 
+    @FindBy (xpath = "(//ul[@class='top-menu notmobile']/li)[3]")
+    public WebElement apparelButton;
+
+    @FindBy (xpath = "(//ul[@class='top-menu notmobile']/li)[3]//li")
+    public List<WebElement> apparelAltBasliklar;
+
+    @FindBy (id = "small-searchterms")
+    public WebElement searchInput;
+
+    @FindBy (xpath = "//button[@type='submit']")
+    public WebElement searchButton;
+
+    @FindBy (xpath = "//h2[@class='product-title']")
+    public WebElement aramaSonucu;
 
 
 
