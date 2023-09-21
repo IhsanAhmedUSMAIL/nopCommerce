@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="myTest1">
+
+        <classes>
+            <class name="US_03_Faruk.US_03_Faruk"> </class>
+        </classes>
+    </test>
+
+
+
+</suite>
