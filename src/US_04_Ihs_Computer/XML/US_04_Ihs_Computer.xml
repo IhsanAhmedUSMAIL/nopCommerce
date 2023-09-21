@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="myTest3">
+
+        <parameter name="searchComputer" value="Lenovo IdeaCentre"/>
+
+        <classes>
+            <class name="US_04_Ihs_Computer.US_04_Ihs_ComputerPOM"> </class>
+        </classes>
+    </test>
+
+</suite>
