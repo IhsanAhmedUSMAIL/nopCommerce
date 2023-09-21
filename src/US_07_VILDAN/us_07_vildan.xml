@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" mySuite">
+
+    <test name="myTest07">
+        <parameter name="searchText" value="Adobe Photoshop CS4"> </parameter>
+
+        <classes>
+            <class name="US_07_VILDAN.US_07_Vildan"> </class>
+        </classes>
+    </test>
+
+</suite>
