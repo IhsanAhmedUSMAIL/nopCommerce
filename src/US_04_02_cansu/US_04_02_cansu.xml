@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+    <test name="myTest4">
+
+        <parameter name="searchElectronics" value="Nokia Lumia 1020"></parameter>
+
+        <classes>
+            <class name="US_04_02_cansu.US_04_02_pom"> </class>
+        </classes>
+    </test>
+
+
+</suite>
