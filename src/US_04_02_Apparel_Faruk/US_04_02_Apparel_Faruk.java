@@ -25,7 +25,7 @@ public class US_04_02_Apparel_Faruk extends BaseDriver {
     @Test()
     @Parameters("searchApparel")
     public void US_04_02_tabMenuApparel(String aranan)
-  //  public void US_04_02_tabMenuApparel()
+
     {
         Elementlerim e = new Elementlerim();
         driver.navigate().to("https://demo.nopcommerce.com/");
