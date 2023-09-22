@@ -1,0 +1,48 @@
+NopCommerce Web Sitesi Team 10 Test Çalışması
+
+
+Proje Amacı :
+https://demo.nopcommerce.com/  web sitesi için belirlenen 8 adet user story nin test edilmesi
+amaçlanmaktadır. Böylece sitenin kullanılabilirliğini ve stabil çalışıp çalışmadığını
+görebileceğiz
+
+
+Proje Hedefleri:
+  US_01_Reg Kullanıcı Kaydı (Register) Oluşturma
+  US_02_Login Kullanıcı Girişi Yapabilme (Login)
+  US_03_Login Negatif ve Pozitif Login Kombinasyonları
+  US_04_TabMenu01 Tab Menü Kontrolü
+  US_04_TabMenu02 Tab Menü'deki ürünlerin kontrolü
+  US_05_Gift01 Hediye Siparişi Verme İşlemi
+  US_06_Order01 Bilgisayar Siparişi Verme İşlemi
+  US 07_Search01 Parametreli Arama İşlemi
+
+
+Proje Teknoloji ve Araçları :
+* Programming Language : Java JDK 1.8 se
+* Test Automation Tool : Selenium org.seleniumhq.selenium:selenium-java:4.11.0
+* Test Framework: TESTNG org.testng:testng:6.14.3
+* Version Control : Git & GitHub
+* Project Management : Jira & XRay
+
+Kurulum  :
+* GitHub'da merkez proje oluşturulup master branch koruma altına alındı.
+* Tüm takım üyeleri İntellij üzerinden projeyi vcs ile klonlayıp kendi branchlarını oluşturdu.
+* Jirada yeni proje oluşturulup product backlog oluşturuldu.
+* Tüm test caseler intellij üzerinden çalıştırılıp testler tamamlandı.
+* Projenin baştan sona kadar yönetimi için Jira ve Xray kullanılmıştır.
+
+Takım Üyeleri :
+* QA Lead - İhsan Ahmed Usmail - ihsanahmedusmail@gmail.com
+* QA - Vildan Çayhan - cayhanvildan@gmail.com
+* QA - Cansu Çeker - cansu.ceker.te@gmail.com
+* QA - Faruk Çeker - farukceker.te@gmail.com
+* QA - Ethem Ağca - ethemagca0126@gmail.com
+
+Sürüm :
+NC-1.01
+
+Teşekkür :
+İsmet Temur, Mustafa Yılmaz, Ebuzer T. , Hakan Taşdelen, Bilal Mavus 'a
+katkılarından dolayı teşekkür ederiz.
+
